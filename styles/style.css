@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --color-gray: #414040;
+    --color-white: #fff;
+    --color-gray-two: #2a2a2a; /*rgb(33, 140, 240)*/
+}
+
+label,
+input,
+select,
+span {
+    display: block;
+}
+
+.container{
+    width: 380px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    background-color: var(--color-gray-two)
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.7em;
+    color: var(--color-white);
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(232, 232, 232);
+    color: var(--color-gray);
+}
+
+select, 
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px rgb(215, 215, 215);
+}
+
+select {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: var(--color-gray);
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    appearance: textfield;
+    -moz-appearance: textfield;
+    outline: none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--color-gray-two);
+    color: var(--color-white);
+}
+
+button:hover {
+    background-color: #222222;
+}
+
+.box-converter {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid var(--color-gray-two);
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+span {
+    font-size: 0.9em;
+}
+
+p {
+    color: var(--color-gray-two);
+    padding-top: 3px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.convert-section-one {
+    margin-bottom: 10px;
+
+}
+
+.convert-section-two {
+    margin-top: 10px;
+}
+
+#cotacao-hoje {
+    margin-top: 10px;
+    font-size: 0.6em;
+    font-weight: normal;
+    text-align: left;
+}
